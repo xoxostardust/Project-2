@@ -4,3 +4,13 @@
 .p {
     font-family: font-family: 'Open Sans', sans-serif;
 }
+
+.content-box{
+    background-color: #6A1C23;
+}
+p,
+h1{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+
+}
