@@ -14,3 +14,32 @@ h1{
     font-family: 'Open Sans', sans-serif;
 
 } */
+
+.flex {
+    display:flex;
+    padding:15px;
+}
+
+.Left {
+    align-self:flex-start;
+    width:75%;
+    /* height: 258px; */
+}
+
+.Left img {
+    width:25%;
+    height:
+}
+
+.thir {
+    width:30%
+}
+
+.Left h3 {
+    font-style:italic;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
