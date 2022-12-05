@@ -1,12 +1,23 @@
+* {
+    margin: 0;
+}
+
 .body {background-image: url("images/pexels-markus-spiske-1089438.png");
 }
 
-.p {
+.headerTop-Home {
+    height: 10vh;
+    background-color: black;
+}
+
+p {
+    font-size: 40px;
     font-family: font-family: 'Open Sans', sans-serif;
 }
 
 .content-box{
     background-color: #6A1C23;
+    color: white;
 }
 /* p,
 h1{
@@ -42,4 +53,23 @@ h1{
 a {
     color:black;
     text-decoration: none;
+}
+
+.vh45 {
+height: 45vh;
+}
+
+.InfoR {
+    width: 55%;
+}
+
+h2 {
+    margin-left: 50px;
+    font-size: 70px;
+}
+
+.RowFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
