@@ -128,13 +128,15 @@ h3{
     padding: 30px 0;
 }
 
-.button {
+button {
     background-color: #D9D9D9;
     color: black;
     padding: 0.8rem 1.6rem;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 50px;
     line-height: 41px;
+    height: 150px;
+    margin-top: 50px;
 }
 
 /* nice hack by paul */
@@ -183,4 +185,22 @@ footer img{
 
 footer ul{
     list-style: none;
+}
+.content-box{
+    /* display:flex; */
+    margin-bottom: 300px;
+
+}
+.Test{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+    word-break: normal;
+    text-align: left;
+    padding: 100px;
+}
+.content-box searchForm{
+    height: 700px;
 }
