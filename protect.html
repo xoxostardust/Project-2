@@ -10,6 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+<nav>
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/Logo-removebg-preview.png" alt="logo">
+        </a>
+</div>
+        <button class="dropdownbutton"></button>
+                <div class="dropdown-links">
+                    <a href="educate.html">Educate</a>
+                    <a href="protect.html">Protect</a>
+                    <a href="secure.html">Secure</a>
+                </div>
+    </div>
+</nav>
 <body>
     <div class="headerTop-Protect">
         <!-- Hero image and nav goes here -->
@@ -44,25 +58,35 @@
 
 
     <footer>
-        <img src="" alt="">
+        
         <!-- logo goes above -->
-        <h3>Data Security Newsletter</h3>
-        <form>
-            <input type="text">
-        </form>
-        <button>Submit</button>
-        <nav class="lowernav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="educate.html">Educate</a></li>
-                <li><a href="secure.html">Secure</a></li>
-                <li><a href="protect.html">Protect</a></li>
-            </ul>
-        </nav>
-        <p>Contact me:</p>
-        <p>2555 Clovis Ave, Clovis, CA 93612</p>
-        <a href=mailto:gabrielle.yeager@student.cart.org>gabrielle.yeager@student.cart.org</a>
-        <p>Copyright 2022 Gabrielle Yeager Center for Advanced Research and Technology</p>
-    </footer>
+        <div class="FooterSection">
+            <img src="images/Logo-removebg-preview.png" alt="">
+            <nav class="lowernav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="educate.html">Educate</a></li>
+                    <li><a href="secure.html">Secure</a></li>
+                    <li><a href="protect.html">Protect</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="FooterSection">
+            <h3>Data Security Newsletter</h3>
+            <div class="SecurityForm">
+                <form>
+                    <label for="emailInput">Email:</label><br>
+                    <input type="text" id="emailInput" name="Email">
+                </form>
+                <button class="FormSubmit" type="button" onclick="alert('Thank you for subscribing!')">Submit</button>
+            </div>
+            
+            <div class="FooterContact">
+                <p>Contact me:</p>
+            <p>2555 Clovis Ave, Clovis, CA 93612</p>
+            <a href=mailto:gabrielle.yeager@student.cart.org>gabrielle.yeager@student.cart.org</a>
+            </div>
+            <p>Copyright 2022 Gabrielle Yeager Center for Advanced Research and Technology</p>
+        </div>
 </body>
 </html>

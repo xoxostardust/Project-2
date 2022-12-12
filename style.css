@@ -1,20 +1,22 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 0;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     background-image: url("images/pexels-markus-spiske-1089438.png");
-    background-size:contain;
+    background-size:cover;
     background-attachment: fixed;
+    margin:0 auto;
 }
 
 
 .headerTop-Home {
     height: 45vh;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: flex-end;
 }
@@ -23,10 +25,53 @@ p {
     font-size: 40px;
 }
 
-.content-box{
+.content-box {
     background-color: #6A1C23;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:500px;
+    font-size: 5px;
 }
+
+.content-box1 {
+    background-color: #6A1C23;
+    color: white;
+    text-align: left;
+    height:fit-content;
+    min-height: 600px;
+    margin-top:300px;
+    display:flex;
+}
+
+.Test {
+    width: 50%;
+    word-break: normal;
+    text-align: left;
+    padding: 50px;
+}
+
+.Test p {
+
+}
+
+.Test-2 {
+    width:50%;
+    padding:200px;
+}
+
+.Test-2 img {
+}
+
+
+.content-box button {
+    height:50px;
+    padding:10px;
+    line-height: 0;
+}
+
 h1{
     font-size: 80px;
     line-height: 109px;
@@ -143,11 +188,11 @@ button {
 }
 
 /* nice hack by paul */
-body > div:not(:nth-child(1), :nth-child(2)) {
+body > div:not(:nth-child(2), :nth-child(3)) {
     margin-top: 276px;
 }
 
-footer{
+footer {
     background-color: #6A1C23;
     width: 100%;
     display: flex;
@@ -201,21 +246,13 @@ input {
 footer ul{
     list-style: none;
 }
+
 .content-box img {
    margin:25px;
    padding-right:200px;
 
 }
-.Test{
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    /* justify-content: center; */
-    width: 50%;
-    word-break: normal;
-    text-align: left;
-    padding: 100px;
-}
+
 .content-box searchForm{
     height: 700px;
 }
@@ -268,4 +305,28 @@ dropdown {
   
   .dropdown:hover .dropdownbutton {
     background-color: #3e8e41;
+    }
+
+nav img {
+    height:100px;
+    position:absolute;
+    margin:16px;
+    }
+
+.hero {
+    height:45vh;
+    background-image: url(images/educatehero.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    }
+
+.content-box searchForm {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     }
