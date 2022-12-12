@@ -14,8 +14,7 @@ body {
 
 .headerTop-Home {
     height: 45vh;
-    background-color: black;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: flex-end;
 }
