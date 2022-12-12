@@ -10,13 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+<nav>
+    <div class="dropdown">
+        <button class="dropdownbutton"></button>
+                <div class="dropdown-links">
+                    <a href="educate.html">Educate</a>
+                    <a href="protect.html">Protect</a>
+                    <a href="secure.html">Secure</a>
+                </div>
+    </div>
+</nav>
 <body>
     <div class="headerTop-Home">
         <div>
             <Img src="images/roach-dancing.gif">
-        </div>
-        <div>
-            <!-- Dropdown -->
         </div>
     </div>
     <div class="homepage-box-1">
@@ -30,11 +37,10 @@
                 for a change. A change through educating, securing, and protecting.
             </p>
             <div class="button-container">
-                <a class="button">Click to learn the process</a>
+                <a class="button" href="educate.html">Click to learn the process</a>
             </div>
         </div>
-        <img class="homepage-box-img" src="" alt="A smartphone">
-        <!-- <img>  add image here -->
+        <img class="homepage-box-img" src="images/instagram.png" alt="A smartphone">
     </div>
 
     <div class="content-box vh45 RowFlex">
@@ -42,10 +48,8 @@
             <h2>Data Breaches</h2>
             <p>A study conducted by the University of Maryland found that a cyberattack involving data breaches happens every 39 seconds. A data breach is when user information or privacy is stolen from a system, usually through a form of hacking. Stay updated on the ongoing data breaches in today’s world that may involve your data by scrolling through.      </p>
         </div>
-        <div class="image-container">
-            <img src="" alt="Man behind computer">
+            <img src="images/manlaptop.png" alt="Man behind computer">
         </div>
-        <!-- <img>  add image here -->
 
     </div>
 
@@ -56,8 +60,7 @@
                 How do you know if your data is secure or compromised? Thanks to the internet, some beneficial websites and applications have been created for everyday users to check the security of their personal data, passwords, and more. Scroll through to learn more about the tools that can aid in your awareness.
             </p>
         </div>
-        <img src="" alt="Black and white image of someone sitting at a computer">
-        <!-- Image goes here -->
+        <img src="images/typing.png" alt="Black and white image of someone sitting at a computer">
     </div>
 
     <footer>
@@ -81,7 +84,7 @@
                     <label for="emailInput">Email:</label><br>
                     <input type="text" id="emailInput" name="Email">
                 </form>
-                <button class="FormSubmit">Submit</button>
+                <button class="FormSubmit" type="button" onclick="alert('Thank you for subscribing!')">Submit</button>
             </div>
             
             <div class="FooterContact">
