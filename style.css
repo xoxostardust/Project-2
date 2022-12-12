@@ -11,8 +11,7 @@ body {
 
 .headerTop-Home {
     height: 45vh;
-    background-color: black;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: flex-end;
 }
@@ -207,4 +206,34 @@ footer ul{
 
 .main-temp h2 {
    margin-right: 500px; 
+}
+
+.camera {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:100%;
+    text-align: center;
+}
+
+.lens {
+    width:250px;
+    height:250px;
+    background: #FFF;
+    display: inline-block;
+    margin:40px;
+    margin-bottom: 400px;
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+}
+
+.ball {
+    width:100px;
+    height:100px;
+    background: #323232;
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius: 50%;
 }
