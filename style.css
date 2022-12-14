@@ -1,3 +1,7 @@
+@media (max-width: 1250px) {
+    
+}
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -6,6 +10,8 @@
     font-family: 'Open Sans', sans-serif;
     max-width: 100%;
 }
+
+
 
 .body1,
 body {
@@ -177,6 +183,16 @@ h1{
     height:
 }
 
+#protect2.content-box1 {
+    height:60vh;
+    margin-top:20vh;
+}
+
+#protect.content-box1 {
+    height:60vh;
+    margin-top:0;
+}
+
 .thir {
     width:30%
 }
@@ -189,6 +205,10 @@ a {
     color:black;
     text-decoration: none;
     font-size: 40px;
+}
+
+#protect.hero {
+    background-image: url(images/phonehero.png);
 }
 
 .vh45 {
@@ -273,6 +293,7 @@ h3{
 .homepage-box-content h1 {
     color:white;
 }
+
 
 .homepage-box-content p {
     font-size:x-large;
@@ -437,6 +458,8 @@ nav img {
     height:100px;
     position:absolute;
     margin:16px;
+    margin-top:30px;
+    margin-left:70em;
     }
 
 .hero {
@@ -571,10 +594,6 @@ nav img {
     background-color:#323232;
   }
   
-.main-nav p {
-    justify-content: center;
-}
-
   .main-nav {
     height:12vh;
   }
