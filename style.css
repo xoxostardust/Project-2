@@ -72,6 +72,7 @@ body {
     text-align: left;
 }
 
+
 .content-box-x {
     background-color: #6A1C23;
     color: white;
@@ -101,6 +102,10 @@ body {
     margin-left:18em;
   }
 
+protect {
+    margin-top:0;
+}
+
   .edu-but-right {
     background-color: #a6a4ad;
     color: black;
@@ -121,6 +126,10 @@ body {
 .Test p {
     font-size: 20px;
     padding:100px;
+}
+
+.Test-z {
+    width:50%;
 }
 
 .Test-2 {
@@ -156,6 +165,11 @@ h1{
     align-self:flex-start;
     width:75%;
     /* height: 258px; */
+}
+
+.Test li {
+    margin:2em;
+   
 }
 
 .Left img {
@@ -243,6 +257,7 @@ h3{
 
 .Test h2 {
     padding:20px;
+    margin-top: 2vh;
 }
 
 .homepage-box-content {
@@ -583,6 +598,17 @@ nav img {
     font-size: 1.5rem;
     text-decoration: none;
     
+  }
+
+  .content-box-z {
+    background-color: #6A1C23;
+    color: white;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    height:60vh;
+    font-size: 30px;
   }
 
   .content-box-2 {
