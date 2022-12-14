@@ -32,9 +32,18 @@ body {
     align-items: flex-end;
 }
 
-p {
-    font-size: 40px;
+.content-box ::after :first-child {
+    background-color: #6A1C23;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:60vh;
+    font-size: 5px;
+    margin-top:20vh;
 }
+
 
 .content-box {
     background-color: #6A1C23;
@@ -63,7 +72,19 @@ p {
     text-align: left;
 }
 
-.edu-but {
+.content-box-x {
+    background-color: #6A1C23;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:60vh;
+    font-size: 5px;
+    margin-top: 20em;
+}
+
+.edu-but-left {
     background-color: #a6a4ad;
     color: black;
     border:none;
@@ -77,7 +98,24 @@ p {
     margin-top: 50px;
     box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
     margin:5px;
-    align-self: center;
+    margin-left:18em;
+  }
+
+  .edu-but-right {
+    background-color: #a6a4ad;
+    color: black;
+    border:none;
+    border-radius: 5%;
+    padding: 0.8rem 1.6rem;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    line-height: 41px;
+    height: 150px;
+    margin-top: 50px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
+    margin:5px;
+    margin-left: 18em;
   }
 
 .Test p {
@@ -158,6 +196,18 @@ h3{
     font-size: 50px;
 }
 
+.content-box-y {
+    background-color: #6A1C23;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:80vh;
+    margin-top:20vh;
+    width:100%;
+}
+
 .RowFlex {
     display: flex;
     justify-content: space-between;
@@ -168,6 +218,7 @@ h3{
     display: flex;
     background-color: #323232;
     color: white;
+    height:60vh;
 }
 
 .homepage-box-1 p {
@@ -179,8 +230,8 @@ h3{
 
 .InfoR p {
     font-weight: 100px;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 28px;
+    line-height: 33px;
     margin:2rem;
 }
 
@@ -201,13 +252,21 @@ h3{
     min-width: 50%;
     max-width: 50%;
     margin: 1rem 2rem;
-    height:95vh;
+    height:50vh;
+}
+
+.homepage-box-content h1 {
+    color:white;
+}
+
+.homepage-box-content p {
+    font-size:x-large;
 }
 
 .homepage-box-img {
     width: 50%;
     object-fit: cover;
-    height:100vh;
+    height:60vh;
 }
 
 .button-container {
@@ -274,6 +333,11 @@ input {
     width: 100%;
     justify-content: flex-start;
     align-items: flex-end;
+}
+
+.textbox-left {
+    background-color: white;
+
 }
 
 .FormSubmit{
@@ -361,7 +425,7 @@ nav img {
     }
 
 .hero {
-    height:45vh;
+    height:50vh;
     background-image: url(images/educatehero.png);
     background-size: cover;
     background-attachment: fixed;
@@ -369,7 +433,20 @@ nav img {
     align-items: center;
     justify-content: center;
     font-size: 23px;
+    margin:0 auto;
     }
+
+.hero-2 {
+    height:50vh;
+    background-image: url(images/phone.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    margin:0 auto;
+}
 
 .content-box searchForm {
     text-align: center;
@@ -432,15 +509,22 @@ nav img {
     transform: rotate(45deg);
   }
 
-      .container-2 {
-        width: 15em;
-        height: 15em;
-        background-color: #323232;
-        border-radius: 50%;   
-        padding-top: 30px;
-        /* display:flex; */
+.container-2 {
+    width: 15em;
+    height: 15em;
+    background-color: #323232;
+    border-radius: 50%;   
+    padding-top: 30px;
+       
       }
 
+    .container-4 {
+        width: 10em;
+        height: 15em;
+        border-radius: 50%;
+        border-radius: 50%;
+        border:6px solid black;
+      }
 
     .container-2:not(.container-3) {
         display: flex;
@@ -454,11 +538,6 @@ nav img {
         margin-left: 3.5em;
       }
 
-
-  .container {
-    /* display: flex; */
-  }
-
   .eye {
     width: 10em;
     height: 10em;
@@ -468,4 +547,96 @@ nav img {
     margin-bottom:500px;
   }
 
+  nav.main-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    background-color:#323232;
+  }
   
+.main-nav p {
+    justify-content: center;
+}
+
+  .main-nav {
+    height:12vh;
+  }
+  
+  .main-nav .logo {
+    width: 550px;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display:flex;
+  }
+  
+  .main-nav a {
+    display: inline-block;
+    padding: 2rem;
+    color:white;
+    justify-self: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+  }
+
+  .content-box-2 {
+    background-color: #6A1C23;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:60vh;
+    font-size: 30px;
+    margin-top:20vh;
+  }
+
+  .content-box-2 h2, 
+  .content-box-2 p {
+    padding:20px;
+  }
+
+  .legal {
+    background-color: #a6a4ad;
+    color: black;
+    border:none;
+    border-radius: 5%;
+    font-weight: 400;
+    font-size: 30px;
+    align-items: center;
+    line-height: 41px;
+    padding:25px;
+    height: 150px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
+    margin:5px;
+    margin-top:40px;
+  }
+
+  .protect-link {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    line-height: 41px;
+    padding:25px;
+    margin:5px;
+  }
+
+  .animate {
+    margin-bottom:5vh;
+  }
+
+  .yimg {
+    display:flex;
+    width:33%;
+
+  }
+
+
+ 
