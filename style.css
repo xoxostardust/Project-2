@@ -559,22 +559,22 @@ nav img {
     .container-4 {
         width: 10em;
         height: 15em;
-        border-radius: 50%;
-        border-radius: 50%;
-        border:6px solid black;
+        /* border-radius: 50%;
+        border-radius: 50%; */
+        /* border:6px solid black; */
       }
 
     .container-2:not(.container-3) {
         display: flex;
     }
 
-      .container-3 {
+     .container-3 {
         background-color: #323232;
         width:8em;
         height:40em;
         position:absolute;
         margin-left: 3.5em;
-      }
+      }  
 
   .eye {
     width: 10em;
